@@ -1,0 +1,324 @@
+fileFormatVersion: 2
+guid: f5dc3e03462f9a144a9edad7774f4f89
+ModelImporter:
+  serializedVersion: 24501
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: e4f74397edaffa34d9bc792cc54c6406, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: 888805bea4213c94f951c13d02aaaaa0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TV_02
+    second: {fileID: 2100000, guid: f3816ba3c0fbd3f4683451db4756a0bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: back_wall
+    second: {fileID: 2100000, guid: 15f99205eed5ce74b99906cb32d57f4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: devider
+    second: {fileID: 2100000, guid: 7eb7089f2bade5745b8c3fe3a6a68626, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_handle
+    second: {fileID: 2100000, guid: 8d77f6aeb13d06246b4be83128245b44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: downlight
+    second: {fileID: 2100000, guid: a81f6bc8776560944826f1f44952fea7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: event_chair_
+    second: {fileID: 2100000, guid: c41c6bf7af52cdf42a4cbb01afe0223f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fascia
+    second: {fileID: 2100000, guid: ee33d055e8c9dd1448a7fb22bf9359b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: floor
+    second: {fileID: 2100000, guid: 36733ebc6b46a1b4093c94dc0e6beade, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: header_box
+    second: {fileID: 2100000, guid: b79c7f9c43a586f429e26ec81d937e6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: information_counter
+    second: {fileID: 2100000, guid: cd31574ee05e2e847bdcf0864dc8b1c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: led_flex
+    second: {fileID: 2100000, guid: e13627584a3067247987402999d7718e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: poster
+    second: {fileID: 2100000, guid: 5b795b3cc507c50409d9093c4536909d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: poster_frame
+    second: {fileID: 2100000, guid: ae4ccf2650b9e424ba823d4482aae4d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pot_01
+    second: {fileID: 2100000, guid: d088083b0702fc341b3f92ae719e805c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: storage_room
+    second: {fileID: 2100000, guid: 3a89e1610b0be534aa4006a64bfb91ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: table_leg_01
+    second: {fileID: 2100000, guid: cac4d33752d24344ba0a562cd0598681, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: top_table_01
+    second: {fileID: 2100000, guid: 4efd25b5ffeb589489ffb61aeb153272, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wall_TV_bracket_01
+    second: {fileID: 2100000, guid: 12b48f0dfab2ffb4dbf1171e13cf6fd6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wooden_wall
+    second: {fileID: 2100000, guid: cb92b57fda6c3684181919b515d10c80, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Logo01Stall01
+    second: {fileID: 2800000, guid: 7a59e155a1130674381d2be06174726b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TV 02VRayCompleteMap
+    second: {fileID: 2800000, guid: 7f13e2cab20d2e94286361a5def37e95, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: back wallVRayCompleteMap
+    second: {fileID: 2800000, guid: c4ea43f6d3b84334a865ddb6c1b6f467, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: deviderVRayCompleteMap
+    second: {fileID: 2800000, guid: 38f485007321aa6498b11713060487a2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: door handleVRayCompleteMap
+    second: {fileID: 2800000, guid: fb3cbc939c0ce4844b156d3796ff6721, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: downlight 008VRayCompleteMap
+    second: {fileID: 2800000, guid: bab16f4144906a841b427cfbe21e4663, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: downlight 008VRayCompleteMap_emission
+    second: {fileID: 2800000, guid: f2d10483d45c1774b9bea1565d31977f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: event_chair_03VRayCompleteMap
+    second: {fileID: 2800000, guid: 9643d7ed24552ee42ac891bde3f91ce5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: fasciaVRayCompleteMap
+    second: {fileID: 2800000, guid: 01770b94355bec041bfc35ed4f19013a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: floorVRayCompleteMap
+    second: {fileID: 2800000, guid: 060c171e50aa8604b89242b95789586b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: header boxVRayCompleteMap
+    second: {fileID: 2800000, guid: 27e134ee0abd019489841b8f0db6e0ee, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: information counterVRayCompleteMap
+    second: {fileID: 2800000, guid: a5dd4787b23224a4bbf29ca0b86c3ecf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: led flexVRayCompleteMap
+    second: {fileID: 2800000, guid: fc18da1b617a36144a00cbfaf85ff782, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: poster frameVRayCompleteMap
+    second: {fileID: 2800000, guid: 8deb854fcd7d51a42aa153cc092971e0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: posterVRayCompleteMap
+    second: {fileID: 2800000, guid: 794bc1c22889a1940b32cc1ed9498c2f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: pot 01VRayCompleteMap
+    second: {fileID: 2800000, guid: 340a470d737121c4cb6f0dd3b7e12e91, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: storage roomVRayCompleteMap
+    second: {fileID: 2800000, guid: 17bd978f477ded3438088be107eff756, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: table_leg 01VRayCompleteMap
+    second: {fileID: 2800000, guid: 7764c4e8549775f4bbd8b2a079d102f7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: top_table 01VRayCompleteMap
+    second: {fileID: 2800000, guid: d674678996d48bf49af8497d6084079e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wall TV bracket 01VRayCompleteMap
+    second: {fileID: 2800000, guid: 08295ae819e2b7344b4d3c934f6e60be, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wooden wallVRayCompleteMap
+    second: {fileID: 2800000, guid: 9da5b834eda33394f89d9af9f2191bb3, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+    searchTexturesGlobally: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    importUVs: -1
+    importVertexColors: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+    calculateBlendshapeNormalsDeltaFromImportedNormals: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,6 +1,7 @@
 using JetBrains.Annotations;
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Networking;
@@ -190,7 +191,7 @@ public class Booth
 
     public Document[] documents;
     public Video[] videos;
-
+    public Job[] jobs;
     public int sort_order;
 }
 
@@ -254,4 +255,24 @@ public class WebinarData
     public string timezone;
     public int duration_minutes;
     public string registration_url;
+}
+
+[Serializable]
+public class Job
+{
+    public int id;
+    public string title;
+    public string department;
+    public string location;
+    public string employment_type;
+    public string work_mode;
+    public string experience;
+    public string education;
+    public string[] required_skills;
+    public string salary_range;
+    public int openings;
+    public string short_description;
+    public string application_deadline;
+    public bool is_featured;
+    public string apply_url;
 }

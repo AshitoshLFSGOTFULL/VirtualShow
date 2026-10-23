@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5322329720252815660
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7371815494628241513}
+  - component: {fileID: 4978510396489306663}
+  - component: {fileID: 4948166413006793677}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7371815494628241513
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5322329720252815660}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4978510396489306663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5322329720252815660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603470b4340e815488bd0c88449c6339, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Stalls: []
+  m_WebinarExtractedData: []
+  m_Events: []
+  IsDataLoaded: 0
+  IsStallsDataLoaded: 0
+--- !u!114 &4948166413006793677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5322329720252815660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 040c3c609a392b7498719ec4ae5bf54e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bearerToken: vbe_SCp4Z3NViwtNb3OBQ7MkJRGevzqOCyhaZn6PzGbWXYCfD0ot
+  data:
+    data:
+      event:
+        id: 0
+        code: 
+        title: 
+        slug: 
+        short_summary: 
+        description: 
+        start_date: 
+        end_date: 
+        start_time: 
+        end_time: 
+        timezone: 
+        status: 
+        visibility: 
+        url: 
+        theme_color: 
+        logo_url: 
+        banner_url: 
+        cover_image_url: 
+        organizer:
+          name: 
+          email: 
+          phone: 
+      booths: []
+      booth_count: 0
+      connected_at: 
+      updated_at: 
+  webinarData:
+    data:
+      eventData:
+        id: 0
+        title: 
+        timezone: 
+      webinars: []
+      webinar_count: 0

@@ -1,4 +1,6 @@
+using System;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Networking;
@@ -27,6 +29,9 @@ public class InteractionHandler : MonoBehaviour
     [SerializeField] UnityEvent m_EntryEvent;
     [SerializeField] UnityEvent m_ExitEvent;
     [SerializeField] UnityEvent m_ButtonEvent;
+    
+    [Header("Jobs")]
+    [SerializeField] Button[] m_listingJobs;
 
     string YoutubeLink;
     string YoutubeThumbnailLink;
@@ -34,7 +39,9 @@ public class InteractionHandler : MonoBehaviour
     string BrochureThumbnailLink;
     string LogoSquare;
     string LogoRectangle;
-
+    
+    List<EventJobsData> m_eventJobs;
+    
     private void Awake()
     {
         if(m_PlayButton == null || m_PDFButton == null)
@@ -66,6 +73,8 @@ public class InteractionHandler : MonoBehaviour
                 LoadMaterialImage(m_RectangleLogoMaterial, LogoRectangle);
             }
             SetLinks(eventStallData.VideoURL, eventStallData.DocumentURL, eventStallData.VideoThumbnailURL, eventStallData.DocumentThumbnailURL);
+            
+            
         }
     }
     
@@ -90,6 +99,14 @@ public class InteractionHandler : MonoBehaviour
             LoadImage(m_PlayButtonThumbnail, YoutubeThumbnailLink);
             LoadImage(m_PDFButtonThumbnail, BrochureThumbnailLink);
         }
+    }
+
+    public void SetJobsData(string jobname, string link)
+    {
+        EventJobsData jobdata = new EventJobsData();
+        jobdata.name = jobname;
+        jobdata.jobLink = link;
+        m_eventJobs.Add(jobdata);
     }
 
     private void LoadImage(RawImage img, string url)
@@ -164,4 +181,11 @@ public class InteractionHandler : MonoBehaviour
     {
         m_ExitEvent.Invoke();
     }
+}
+
+[Serializable]
+public class EventJobsData
+{
+    public string name;
+    public string jobLink;
 }

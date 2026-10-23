@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    [SerializeField] VirtualEventSession.LoginResponse m_LoginResponse;
     [SerializeField] List<Stall> m_Stalls;
     [SerializeField] private List<WebinarExtractedData> m_WebinarExtractedData;
     [SerializeField] List<EventStallData> m_Events;
@@ -36,9 +37,12 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    
+    public void SetLoginResponse(VirtualEventSession.LoginData data)
+    {
+        m_LoginResponse.data = data;
+    }
 
-    public void SetEventData(string companyName, string description, string docUrl, string videoUrl, string docThumbnaiUrl, string videoThumbnailUrl,string logoSquare,string logoRectangle)
+    public void SetEventData(string companyName, string description, string docUrl, string videoUrl, string docThumbnaiUrl, string videoThumbnailUrl,string logoSquare,string logoRectangle,Job[] jobs)
     {
         EventStallData eventData = new EventStallData
         {
@@ -146,8 +150,24 @@ public class EventStallData
 
     public string LogoSquare;
     public string LogoRectangle;
+
+    public List<EventStallJobs> m_Jobs;
+
+    public void SetJobs(Job[] jobs)
+    {
+        for (int i = 0; i < jobs.Length; i++)
+        {
+            
+        }
+    }
 }
 
+[Serializable]
+public class EventStallJobs
+{
+    public string jobname;
+    public string joblink;
+}
 
 [Serializable]
 public class WebinarExtractedData

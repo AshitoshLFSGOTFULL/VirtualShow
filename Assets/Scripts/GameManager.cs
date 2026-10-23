@@ -55,6 +55,8 @@ public class GameManager : MonoBehaviour
             LogoSquare = logoSquare,
             LogoRectangle = logoRectangle
         };
+        
+        eventData.SetJobs(jobs);
 
         m_Events.Add(eventData);
     }
@@ -151,13 +153,18 @@ public class EventStallData
     public string LogoSquare;
     public string LogoRectangle;
 
-    public List<EventStallJobs> m_Jobs;
+    public List<EventStallJobs> m_Jobs = new List<EventStallJobs>();
 
     public void SetJobs(Job[] jobs)
     {
         for (int i = 0; i < jobs.Length; i++)
         {
-            
+            EventStallJobs l_stalljobs = new EventStallJobs
+            {
+                jobname = jobs[i].title,
+                joblink = jobs[i].apply_url
+            };
+            m_Jobs.Add(l_stalljobs);
         }
     }
 }

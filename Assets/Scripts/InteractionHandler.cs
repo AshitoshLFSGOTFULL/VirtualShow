@@ -32,6 +32,7 @@ public class InteractionHandler : MonoBehaviour
     
     [Header("Jobs")]
     [SerializeField] Button[] m_listingJobs;
+    [SerializeField] List<EventJobsData> m_eventJobs;
 
     string YoutubeLink;
     string YoutubeThumbnailLink;
@@ -40,7 +41,6 @@ public class InteractionHandler : MonoBehaviour
     string LogoSquare;
     string LogoRectangle;
     
-    List<EventJobsData> m_eventJobs;
     
     private void Awake()
     {
@@ -73,8 +73,16 @@ public class InteractionHandler : MonoBehaviour
                 LoadMaterialImage(m_RectangleLogoMaterial, LogoRectangle);
             }
             SetLinks(eventStallData.VideoURL, eventStallData.DocumentURL, eventStallData.VideoThumbnailURL, eventStallData.DocumentThumbnailURL);
-            
-            
+
+            if (m_listingJobs.Length > 0)
+            {
+                for (int i = 0; i < eventStallData.m_Jobs.Count; i++)
+                {
+                    SetJobsData(eventStallData.m_Jobs[i].jobname, eventStallData.m_Jobs[i].joblink);
+                    m_listingJobs[i].gameObject.SetActive(true);
+                    m_listingJobs[i].GetComponentInChildren<Text>().text = eventStallData.m_Jobs[i].jobname;
+                }
+            }
         }
     }
     

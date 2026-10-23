@@ -109,7 +109,7 @@ public class VirtualEnvironmentResponse : MonoBehaviour
             Debug.Log($"Video URL {booth.videos[0].url}");
             Debug.Log($"Video Thumbnail URL {booth.videos[0].thumbnail_url}");
             GameManager.s_Instance.SetStallData(booth.company.name,booth.is_active);
-            GameManager.s_Instance.SetEventData(booth.company.name,booth.description,booth.documents[0].url, booth.videos[0].url, booth.documents[0].thumbnail_url, booth.videos[0].thumbnail_url,booth.logo_square_url,booth.logo_rectangle_url);
+            GameManager.s_Instance.SetEventData(booth.company.name,booth.description,booth.documents[0].url, booth.videos[0].url, booth.documents[0].thumbnail_url, booth.videos[0].thumbnail_url,booth.logo_square_url,booth.logo_rectangle_url,booth.jobs);
         }
 
         GameManager.s_Instance.SetDataLoaded(true); 
